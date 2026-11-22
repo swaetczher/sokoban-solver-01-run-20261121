@@ -12,7 +12,7 @@ Entry for the [make.fun bounty **sokoban-solver-01-run-20261121**](https://make.
 `main.ts` (TypeScript, Node 22, stdlib only) solves Sokoban levels: it reads
 each instance's `level.txt` (XSB: `#` wall, space floor, `.` goal, `$` box,
 `*` box on goal, `@` player) from `/input/<id>/` and writes the player's
-moves (LURD, one letter per step) to `/output/<id>/solution.txt`, pushing
+moves (u/d/l/r, one letter per step) to `/output/<id>/solution.txt`, pushing
 every box onto a goal in as few pushes as possible. One run answers all
 5 instances of a set within 60 seconds, deterministically — two runs write
 byte-identical output.
